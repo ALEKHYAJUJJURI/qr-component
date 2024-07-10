@@ -1,0 +1,28 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+.bg-con {
+  height: 100vh;
+}
+.card-con {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 17px;
+  width: 300px;
+}
+.text1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+  font-size: 18px;
+}
+.text2 {
+  color: hsl(220, 15%, 55%);
+}
+@media screen and (min-width: 370px) {
+  .card-con {
+    width: 300px;
+  }
+}
